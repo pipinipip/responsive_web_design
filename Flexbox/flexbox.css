@@ -1,0 +1,25 @@
+
+.flex-container {
+  display: flex;
+  background-color: darkgreen;
+  height: 400px;
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  /* flex-direction: row; */
+   /* justify-content: center; */
+   /* align-items: center; */
+   /* justify-content: space-around; */
+  /* more boxes!!!; */
+  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap-reverse; */
+    /* align-items: stretch; */
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  width: 150px;
+  height: 100px;
+}

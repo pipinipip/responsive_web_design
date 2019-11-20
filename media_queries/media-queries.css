@@ -1,0 +1,37 @@
+body {
+    width: auto;
+    background-color: blue;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        width: auto;
+        background-color: pink;
+    }
+}
+/* For mobile phones: */
+@media only screen and (min-width: 600px) {
+    body {
+        width: auto;
+        background-color: red;
+    }
+}
+/* For tablets: */
+@media only screen and (min-width: 768px) {
+    body {
+        width: auto;
+        background-color: yellow;
+    }
+}
+@media only screen and (min-width: 980px) {
+    body {
+        width: auto;
+        background-color: green;
+    }
+}
+
+/* @media only screen and (min-width: 1200px) {
+    body {
+        width: auto;
+        background-color: blue;
+    }
+} */

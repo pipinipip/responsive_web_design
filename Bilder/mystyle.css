@@ -1,0 +1,16 @@
+/* * {
+  box-sizing:border-box;
+} */
+
+.Responsive{
+    /* width:100%; */
+    max-width: 100%;
+}
+
+.NonResponsive{
+
+}
+
+/* .fast{
+    width: 900px;
+} */
