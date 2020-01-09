@@ -2,12 +2,31 @@ body {
     width: auto;
     background-color: blue;
 }
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.nav-item {
+    font-size: 2em;
+    color: white;
+}
+
+.nav-item:hover {
+    color: darkkhaki;
+
+}
+
 @media only screen and (max-width: 600px) {
     body {
         width: auto;
         background-color: pink;
     }
 }
+
 /* For mobile phones: */
 @media only screen and (min-width: 600px) {
     body {
@@ -15,6 +34,7 @@ body {
         background-color: red;
     }
 }
+
 /* For tablets: */
 @media only screen and (min-width: 768px) {
     body {
@@ -22,16 +42,18 @@ body {
         background-color: yellow;
     }
 }
+
 @media only screen and (min-width: 980px) {
     body {
         width: auto;
         background-color: green;
+        color: white
     }
 }
 
-/* @media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
     body {
         width: auto;
         background-color: blue;
     }
-} */
+}
